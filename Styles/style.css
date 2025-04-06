@@ -1,0 +1,140 @@
+.font-styleNIKE{
+    font-family: 'NIKE', sans-serif;
+    src: url('../fnts/NIKE.ttf') format('truetype');
+}
+body{
+    font-family: 'NIKE';
+}
+.iPhone{
+    background-color: #51647d;
+    max-width: 480px;
+    min-height: 768px;
+    border-radius: 30px;
+    font-family: 'NIKE', sans-serif;
+}
+.header, .choose{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+.choose-icon{
+    border-radius: 11px;
+    background-color: rgb(237, 237, 237);
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    color: rgb(100, 121, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.ad{
+    background-color: #314053;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 22px;
+}
+.ad1{
+    color: white;
+    padding-left: 10%;
+    margin-top: 40px;
+    padding-top: 5%;
+}
+.ad2{
+    display: flex;
+    justify-content: space-around;
+}
+.ad2-1{
+    background-color: #fc783f;
+    border-radius: 11px;
+    color: rgb(100, 121, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.Sneakers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Sneakers h2{
+    color: white;
+}
+.Sneakers p{
+    color:#a7b1be;
+}
+.cards-container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.cards{
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+}
+.card{
+    background-color: rgb(237, 237, 237);
+    width: 40%;
+    height: 200px;
+    border-radius: 11px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-shrink: 0; /* не дает карте сжаться */
+    box-shadow: 2px 2px 4px black;
+}
+.card:hover{ /*ховерочек*/
+    transform: scale(1.05);
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(100, 121, 132);
+}
+.slider-button{
+    position: absolute; 
+    top: 50%;           
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+}
+.slider-button-prev {
+    left: 10px;           
+}
+
+.slider-button-next {
+    right: 10px; 
+}
+.Sneakers-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
