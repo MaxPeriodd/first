@@ -1,0 +1,138 @@
+.font-styleNIKE{
+    font-family: 'NIKE', sans-serif;
+    src: url('../fnts/NIKE.ttf') format('truetype');
+}
+body{
+    font-family: 'NIKE';
+}
+.iPhone{
+    background-color: rgb(237, 237, 237);
+    max-width: 480px;
+    min-height: 975px;
+    border-radius: 30px;
+    font-family: 'NIKE', sans-serif;
+    margin-left: 35%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.heads{
+    width: 27px;
+}
+.card{
+    text-align: center;
+    color: #51647d;
+}
+.rating {
+    font-size: 24px;
+    color: #ccc;
+    display: inline-block;
+  }
+
+  .star {
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+
+  .star.hovered {
+    color: gold;
+  }
+.img-controle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #94a6bd;
+    color:  #94a6bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    text-decoration: none;
+}
+.down-pricelist{
+    background-color: #51647d;
+    border-radius: 11px;
+    
+}
+.down-pricelist-pad{
+    padding: 5%;
+    padding-bottom: 0;
+}
+.down-pricelist-pad h2{
+    color: rgb(237, 237, 237);
+}
+.down-pricelist-pad h1{
+    color: white;
+    font-size: 45px;
+}
+.down-pricelist-pad p{
+    color: #94a6bd;
+}
+.size-controle{
+    display: flex;
+    justify-content: center;
+}
+.size{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #94a6bd;
+    color:  #94a6bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    text-decoration: none;
+    background-color: #51647d;
+}
+.a1{
+    color: #fc783f;
+    text-decoration: none;
+}
+.size:hover{
+    transform: scale(1.1);
+    border: 2px solid #fc783f;
+    color: #fc783f;
+}
+.down-del{
+    display: flex;
+    justify-content: center;
+}
+.down-del-but{
+    background-color: rgb(237, 237, 237);
+    width: 40%;
+    height: 100px;
+    border-radius:20px 0px 0px 0px;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #51647d;
+    font-size: 20px;
+}
+.down-del-but:hover{
+    transform: scale(1.05);
+}
+.down-del-but1{
+    background-color: #fc783f;
+    width: 40%;
+    height: 100px;
+    border-radius:0px 20px 0px 0px;
+    box-shadow: -2px 0px 2px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #51647d;
+    font-size: 20px;
+}
+.down-del-but1:hover{
+    transform: scale(1.05);
+}

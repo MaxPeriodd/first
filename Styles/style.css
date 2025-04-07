@@ -8,11 +8,18 @@ body{
 .iPhone{
     background-color: #51647d;
     max-width: 480px;
-    min-height: 768px;
+    min-height: 975px;
     border-radius: 30px;
     font-family: 'NIKE', sans-serif;
+    margin-left: 35%;
 }
-.header, .choose{
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.choose{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,19 +37,31 @@ body{
     align-items: center;
     text-decoration: none;
 }
+.choose-icon:hover{
+    transform: scale(1.05);
+}
 .ad{
     background-color: #314053;
-    flex-direction: column;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 22px;
+}
+.ad:hover{
+    transform: scale(1.05);
 }
 .ad1{
     color: white;
     padding-left: 10%;
     margin-top: 40px;
     padding-top: 5%;
+}
+.ad1 h3, .ad1 h1{
+    height: 20px;
+    margin: 0;
+}
+.ad1 h1{
+    margin-bottom: 60px;
 }
 .ad2{
     display: flex;
@@ -66,6 +85,7 @@ body{
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 20px;
 }
 .Sneakers h2{
     color: white;
@@ -77,9 +97,11 @@ body{
     position: relative;
     overflow: hidden;
     width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 .cards{
-    height: 220px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     transition: transform 0.3s ease;
@@ -94,6 +116,7 @@ body{
     margin-right: 5%;
     flex-shrink: 0; /* не дает карте сжаться */
     box-shadow: 2px 2px 4px black;
+    text-decoration: none;
 }
 .card:hover{ /*ховерочек*/
     transform: scale(1.05);
@@ -128,6 +151,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #314053;
 }
 .footer{
     display: flex;
@@ -135,6 +159,5 @@ body{
     align-items: center;
     margin-left: 5%;
     margin-left: 5%;
-    margin-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
 }
